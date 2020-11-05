@@ -17,14 +17,14 @@ root.resizable(width=False,height=False)
 #CREATING FRAME FOR THE CALCULATOR
 
 
-main_frame=Frame(root,relief='groove')
+main_frame=Frame(root,relief='raised',bg='#20B2AA')
 main_frame.pack()
 
 #CREATING DISPLAY FIELD
 equation=StringVar()
 
-display_text=Entry(main_frame,textvariable=equation,justify='right',relief='raised',font=('arial',20,'bold'),bg='#8DB6CD')
-display_text.grid(row=0,column=0,columnspan=4)
+display_text=Entry(main_frame,textvariable=equation,justify='right',relief='raised',font=('arial',20,'bold'),bg='#8DB6CD',insertwidth=4,bd=2)
+display_text.grid(row=0,column=0,columnspan=4,ipady=25,pady=20,ipadx=8)
 
 #FUNCTION DECLARATION AREA
 expression=""
@@ -144,3 +144,7 @@ button_clean.grid(row=5,column=3)
 
 
 root.mainloop()
+
+
+#CREATED BY:AFLAH SEDHIQUE
+#PUSHED TO GIT HUB(Aflah3100@gmail.com)
