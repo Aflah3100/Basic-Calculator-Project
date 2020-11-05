@@ -147,4 +147,4 @@ root.mainloop()
 
 
 #CREATED BY:AFLAH SEDHIQUE
-#PUSHED TO GIT HUB(Aflah3100@gmail.com)
+#PUSHED TO GIT HUB(aflah3100@gmail.com)
